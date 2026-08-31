@@ -1,23 +1,23 @@
-# Documentação de Arquitetura: Chatbot Enterprise Baseado em RAG
+# Chatbot RAG
 
 ## Visão geral
 
-Este projeto tem como objetivo documentar a arquitetura de um chatbot enterprise baseado em RAG, voltado para responder dúvidas com base em documentos PDF privados.
+Este projeto documenta a arquitetura de um chatbot enterprise baseado em RAG para responder dúvidas usando documentos PDF privados.
 
-## Guia de GitHub para colaboração
+## Guia Git
 
-Para instruções práticas sobre criação de branch, commits, push e Pull Request, consulte o arquivo:
+Para aprender como criar branch, fazer alteração, fazer commit e enviar para o GitHub, veja:
 
-- [GIT_WORKFLOW.md](GIT_WORKFLOW.md)
+- [guia-git.md](guia-git.md)
 
 ## Conteúdo principal
 
-A documentação técnica do sistema está detalhada no restante do projeto, com foco em:
+A documentação técnica do sistema inclui:
 
 - arquitetura geral;
-- requisitos funcionais e não funcionais;
-- fluxo RAG;
+- requisitos;
+- fluxo do RAG;
 - casos de uso;
-- diagramas Mermaid;
-- justificativas tecnológicas;
+- diagramas;
+- tecnologia usada;
 - segurança e escalabilidade.
