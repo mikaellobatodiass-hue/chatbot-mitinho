@@ -1,22 +1,30 @@
 # Guia Git
 
-Este guia mostra de forma fácil como criar branch, alterar arquivos e enviar mudanças para o repositório.
+## 🧩 Visão geral
+
+Este guia mostra de forma simples como criar branch, alterar arquivos e enviar mudanças para o repositório.
+
+Ele é útil para qualquer pessoa que queira colaborar no projeto sem bagunçar a branch principal.
+
+---
 
 ## 1. Criar uma branch
 
 Use uma branch separada para cada tarefa ou alteração.
 
+### Comando
+
 ```bash
 git switch -c feature/minha-alteracao
 ```
 
-Ou, se preferir:
+Também funciona assim:
 
 ```bash
 git checkout -b feature/minha-alteracao
 ```
 
-Exemplo:
+### Exemplo
 
 ```bash
 git switch -c feature/atualizar-documentacao
@@ -24,23 +32,23 @@ git switch -c feature/atualizar-documentacao
 
 ---
 
-## 2. Fazer alterações no projeto
+## 2. Fazer alterações
 
 Depois de criar a branch, edite os arquivos necessários.
 
-Verifique o estado:
+### Verificar o estado do projeto
 
 ```bash
 git status
 ```
 
-Adicione as alterações:
+### Adicionar as mudanças
 
 ```bash
 git add .
 ```
 
-Crie o commit:
+### Fazer o commit
 
 ```bash
 git commit -m "Atualiza documentação do projeto"
@@ -50,7 +58,7 @@ git commit -m "Atualiza documentação do projeto"
 
 ## 3. Enviar para o GitHub
 
-Se a branch ainda não existir no remoto:
+Se a branch ainda não existir no repositório remoto:
 
 ```bash
 git push -u origin feature/minha-alteracao
@@ -66,7 +74,7 @@ git push
 
 ## 4. Atualizar a branch principal
 
-Para integrar as mudanças com a versão principal, use:
+Se quiser integrar as mudanças com a branch principal, faça assim:
 
 ```bash
 git checkout main
@@ -83,34 +91,34 @@ Depois que a branch estiver no GitHub, abra um Pull Request para revisão antes 
 
 Isso ajuda a:
 
-- revisar alterações antes de publicar;
-- manter o histórico organizado;
-- evitar conflitos de trabalho em equipe;
-- manter a branch principal mais estável.
+- revisar as alterações;
+- manter o projeto organizado;
+- evitar conflitos;
+- reduzir erros antes de publicar.
 
 ---
 
-## 6. Permissões no GitHub
+## 6. Permissões do GitHub
 
-Qualquer pessoa pode criar uma branch e alterar o projeto se tiver acesso ao repositório.
+Para criar branch e enviar mudanças, a pessoa precisa ter acesso ao repositório.
 
-Se a pessoa não tiver permissão, ela não conseguirá:
+Se não tiver permissão, ela não consegue:
 
 - criar branch;
 - fazer push;
 - abrir Pull Request.
 
-Para conceder acesso:
+### Como liberar acesso
 
-1. entrar no repositório;
-2. abrir Settings;
-3. acessar Collaborators;
+1. abrir o repositório no GitHub;
+2. ir em Settings;
+3. entrar em Collaborators;
 4. adicionar a pessoa;
-5. definir permissão como Write ou superior.
+5. definir a permissão como Write ou superior.
 
 ---
 
-## 7. Resumo prático
+## 7. Fluxo rápido
 
 ```bash
 git switch -c feature/nova-tarefa
@@ -121,4 +129,10 @@ git commit -m "Descreve a alteração"
 git push -u origin feature/nova-tarefa
 ```
 
-> Conclusão: não é o ERP que define isso, e sim a permissão no GitHub. Com acesso, a pessoa pode criar branch, alterar arquivos e enviar as mudanças normalmente.
+---
+
+## ✅ Conclusão
+
+O mais importante é entender que a pessoa precisa ter acesso ao GitHub para colaborar. Sem permissão, ela não consegue enviar alterações. Com acesso, o processo é simples e organizado.
+
+> Em resumo: branch + alteração + commit + push + Pull Request.
