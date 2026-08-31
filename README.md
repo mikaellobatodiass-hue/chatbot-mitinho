@@ -1,5 +1,13 @@
 # Chatbot RAG
 
+## Ordem de leitura
+
+1. [guia-git.md](guia-git.md) — primeiro, para entender o fluxo de colaboração e GitHub.
+2. [stacks.md](stacks.md) — em seguida, para entender a arquitetura, stack e fluxo do sistema.
+3. [README.md](README.md) — por fim, como visão geral do projeto e apresentação resumida.
+
+---
+
 ## 📌 Visão geral
 
 Este projeto documenta a arquitetura de um chatbot enterprise baseado em RAG para responder dúvidas com base em documentos PDF privados.
@@ -14,9 +22,25 @@ A proposta tem foco em:
 
 ---
 
-## 📚 Documentação do projeto
+## 🛠️ Guia de colaboração
 
-A documentação principal está organizada em seções que cobrem:
+Antes de qualquer alteração no projeto, consulte o guia de Git:
+
+- [guia-git.md](guia-git.md)
+
+---
+
+## 🧱 Stack e arquitetura
+
+Para entender a arquitetura do sistema, a tecnologia adotada e o fluxo RAG, consulte:
+
+- [stacks.md](stacks.md)
+
+---
+
+## 📚 Conteúdo principal
+
+A documentação técnica inclui:
 
 - arquitetura geral;
 - requisitos funcionais e não funcionais;
@@ -25,22 +49,6 @@ A documentação principal está organizada em seções que cobrem:
 - diagramas Mermaid;
 - stack tecnológica;
 - segurança, governança e escalabilidade.
-
----
-
-## 🛠️ Guia de colaboração
-
-Para aprender como criar branch, fazer alteração, confirmar mudanças e enviar para o GitHub, veja o guia:
-
-- [guia-git.md](guia-git.md)
-
----
-
-## 🧭 Estrutura do repositório
-
-- [README.md](README.md): visão geral e apresentação do projeto;
-- [guia-git.md](guia-git.md): instruções práticas de Git e GitHub;
-- [Docs/](Docs/): materiais complementares e documentação extra.
 
 ---
 
