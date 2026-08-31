@@ -1,24 +1,37 @@
 # Chatbot RAG
 
-## Ordem de leitura
+## 📘 Resumo executivo
 
-1. [guia-git.md](guia-git.md) — primeiro, para entender o fluxo de colaboração e GitHub.
-2. [stacks.md](stacks.md) — em seguida, para entender a arquitetura, stack e fluxo do sistema.
-3. [README.md](README.md) — por fim, como visão geral do projeto e apresentação resumida.
+Este projeto tem como objetivo documentar a arquitetura de um chatbot enterprise baseado em RAG, voltado para responder dúvidas a partir de documentos PDF privados. A proposta combina recuperação de contexto documental com geração de resposta por modelo de linguagem, reduzindo erros e aumentando a confiabilidade das respostas.
+
+A solução foi pensada para ambientes corporativos, com foco em:
+
+- uso de documentos internos privados;
+- busca semântica por trechos relevantes;
+- geração de respostas contextualizadas;
+- baixo custo e uso de ferramentas open-source ou gratuitas;
+- arquitetura organizada para apresentação acadêmica e profissional.
 
 ---
 
-## 📌 Visão geral
+## 📚 Ordem de leitura
 
-Este projeto documenta a arquitetura de um chatbot enterprise baseado em RAG para responder dúvidas com base em documentos PDF privados.
+1. [guia-git.md](guia-git.md) — primeiro, para entender o fluxo de colaboração e GitHub.
+2. [stacks.md](stacks.md) — depois, para compreender a arquitetura, a stack e o fluxo do sistema.
+3. [README.md](README.md) — por fim, como visão geral resumida do projeto.
 
-A proposta tem foco em:
+---
 
-- recuperação de informação relevante;
-- uso de contexto documental para responder melhor;
-- arquitetura segura e escalável;
-- uso de ferramentas open-source e gratuitas;
-- documentação técnica organizada para apresentação acadêmica.
+## 🎯 Objetivo do trabalho
+
+Documentar uma arquitetura técnica de chatbot RAG para organização e apresentação acadêmica, com foco em:
+
+- arquitetura do sistema;
+- requisitos funcionais e não funcionais;
+- fluxos de ingestão, busca e resposta;
+- uso de banco vetorial e embeddings;
+- integração com modelos LLM;
+- segurança, escalabilidade e governança de dados.
 
 ---
 
@@ -32,13 +45,13 @@ Antes de qualquer alteração no projeto, consulte o guia de Git:
 
 ## 🧱 Stack e arquitetura
 
-Para entender a arquitetura do sistema, a tecnologia adotada e o fluxo RAG, consulte:
+Para entender a tecnologia adotada, a arquitetura proposta e o fluxo do sistema, consulte:
 
 - [stacks.md](stacks.md)
 
 ---
 
-## 📚 Conteúdo principal
+## 📌 Conteúdo principal
 
 A documentação técnica inclui:
 
@@ -52,6 +65,6 @@ A documentação técnica inclui:
 
 ---
 
-## ✅ Objetivo do trabalho
+## ✅ Conclusão
 
-O objetivo principal é entregar uma documentação técnica sólida e profissional de um chatbot enterprise baseado em RAG, com foco em arquitetura, requisitos e organização do sistema.
+O projeto apresenta uma proposta consistente de chatbot enterprise RAG, com foco em confiabilidade, rastreabilidade e uso de conhecimento privado. A documentação foi organizada para facilitar a compreensão, a apresentação e a colaboração dentro do grupo.
